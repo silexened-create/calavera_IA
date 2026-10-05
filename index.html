@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calavera IA | El Eco del Mictlán</title>
+    <meta name="description"
+        content="Calavera IA: Experiencia interactiva del Día de Muertos con inteligencia artificial, versos rimados y cultura mexicana.">
+    <!-- Importamos las fuentes de Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="home-page">
+        <!-- ── Hero ── -->
+        <header class="hero">
+            <div class="hero-background" style="background-image: url('images/hero_skull.png');"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-eyebrow">🕯️ El Puente de Cempasúchil 🕯️</p>
+                <h1 class="hero-title">Calavera IA</h1>
+                <p class="hero-subtitle">
+                    Donde la tradición mexicana cobra aliento,<br>
+                    entre versos, ofrendas y el suspiro del viento.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#chat-section" class="cta-primary">💀 Habla con la Calaca</a>
+                    <a href="#documental" class="cta-secondary">📽️ Ver Documental</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ── Navegación de secciones (Tarjetas) ── -->
+        <nav class="nav-cards container">
+            <a href="historia.html" class="nav-card card-historia">
+                <div class="nav-card-image" style="background-image: url('images/mictlan_underworld.png');"></div>
+                <div class="nav-card-content">
+                    <span class="nav-card-icon">📜</span>
+                    <h3 class="nav-card-title">Historia Ancestral</h3>
+                    <p class="nav-card-desc">
+                        De raíces mexicas y cruces de altar,<br>
+                        conoce el origen de nuestro cantar.
+                    </p>
+                </div>
+            </a>
+
+            <a href="cultura.html" class="nav-card card-cultura">
+                <div class="nav-card-image" style="background-image: url('images/la_catrina.png');"></div>
+                <div class="nav-card-content">
+                    <span class="nav-card-icon">🎨</span>
+                    <h3 class="nav-card-title">Cultura Vibrante</h3>
+                    <p class="nav-card-desc">
+                        Entre papel picado y dulce pan,<br>
+                        descubre los tesoros que aquí vivirán.
+                    </p>
+                </div>
+            </a>
+        </nav>
+
+        <!-- Contenedor para el Chat -->
+        <section class="section container" id="chat-section">
+            <h2 class="section-title">💀 Platica con la Calavera</h2>
+            <p class="section-desc">Acércate sin miedo, humano curioso,<br>que mi verso es amable y mi trato, gozoso.
+            </p>
+
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="bot-avatar-circle">💀</div>
+                    <h3 class="chat-header-title">La Calavera Garbancera</h3>
+                    <p class="chat-header-subtitle">Desde el noveno nivel del Mictlán...</p>
+
+                    <!-- Toggle Switch para Modo Poesía -->
+                    <div class="toggle-container">
+                        <span class="toggle-label">✍️ Modo Poesía</span>
+                        <label class="switch">
+                            <input type="checkbox" id="verso-toggle" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                <div id="chat-messages" class="chat-messages">
+                    <div class="message bot-message">¡Hola! Soy la Calavera, del Mictlán he regresado.<br>Hazme una
+                        pregunta y te responderé en verso rimado.</div>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <input type="text" id="user-input" placeholder="Escribe tu pregunta aquí..." autocomplete="off">
+                        <button id="mic-btn" title="Activar micrófono">
+                            🎙️
+                        </button>
+                    </div>
+                    <button id="send-btn">
+                        <span>Enviar</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Sección Documental ── -->
+        <section id="documental" class="section container">
+            <div class="history-header">
+                <h2 class="history-header-title">📽️ Ecos del Pasado</h2>
+                <p class="history-header-subtitle">
+                    En imágenes vivas la historia se cuenta,<br>
+                    mira atento cómo el espíritu se alimenta.
+                </p>
+            </div>
+
+            <!-- Contenedor para el reproductor de video -->
+            <article class="history-card">
+                <div class="card-header">
+                    <span class="card-date">Memoria Eterna</span>
+                    <h3 class="card-title-history">El Documental de la Tradición</h3>
+                </div>
+                <p class="card-text-history">
+                    Los pueblos de antaño miraban la muerte<br>
+                    como el paso sagrado, de un alma muy fuerte.<br>
+                    Descubre en video la raíz y la flor,<br>
+                    de esta bella fiesta llena de color.
+                </p>
+
+                <!-- Contenedor del Video -->
+                <div class="video-container-professional">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/2eAaW9I4E4o" title="Historia del Día de Muertos"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-caption">
+                        <p>🎥 Documental: El origen de la tradición</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Calavera IA - Donde la Calaca Rima y la Tradición Vive</p>
+    </footer>
+
+    <script src="chat.js"></script>
+
+</body>
+
+</html>
