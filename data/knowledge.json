@@ -1,0 +1,194 @@
+{
+  "calaveras": [
+    {
+      "titulo": "La Calavera del Estudiante",
+      "texto": "Estaba un joven estudiando\ncuando la muerte llegó,\ncon su guadaña brillando\nel susto se lo llevó.",
+      "palabras_clave": [
+        "estudiante",
+        "estudiar",
+        "escuela",
+        "joven",
+        "universidad"
+      ]
+    },
+    {
+      "titulo": "La Calavera del Cocinero",
+      "texto": "En la cocina guisando\nla flaca se apareció,\ncon su olor tan demandando\nque hasta ella se antojó.",
+      "palabras_clave": [
+        "cocina",
+        "cocinero",
+        "comida",
+        "guisar",
+        "chef"
+      ]
+    },
+    {
+      "titulo": "La Calavera de la Nueva España",
+      "texto": "Entre templos barrocos y oro colonial,\nla muerte vestía de seda imperial.\nAl virrey y al fraile por igual asustaba,\nmientras el pueblo en secreto a sus muertos cantaba.",
+      "palabras_clave": [
+        "nueva españa",
+        "colonial",
+        "virreinato",
+        "virrey",
+        "fraile",
+        "colonia"
+      ]
+    }
+  ],
+  "rimas": [
+    {
+      "titulo": "Rima del Cempasúchil",
+      "texto": "Con pétalos de oro al sol,\nel cempasúchil florece,\nguiando al alma con su olor\nhasta que el alba amanece.",
+      "palabras_clave": [
+        "cempasúchil",
+        "flor",
+        "ofrenda",
+        "pétalos",
+        "camino"
+      ]
+    },
+    {
+      "titulo": "Rima del Mictlán",
+      "texto": "En el Mictlán hay un sendero,\nde huesos y de obsidiana,\ndonde el valiente guerrero\nencuentra paz soberana.",
+      "palabras_clave": [
+        "mictlán",
+        "inframundo",
+        "muerte",
+        "camino",
+        "sendero"
+      ]
+    },
+    {
+      "titulo": "Rima del Sincretismo",
+      "texto": "La cruz de madera, el copal en el fuego,\ndos mundos que unen su canto y su ruego.\nNo hay herencia más viva ni orgullo más fuerte,\nque ver el color que le damos la muerte.",
+      "palabras_clave": [
+        "sincretismo",
+        "raíces",
+        "orgullo",
+        "cultura",
+        "tradición",
+        "fusion"
+      ]
+    }
+  ],
+  "datos": [
+    {
+      "dato": "El Día de Muertos fue declarado Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO en 2003.",
+      "palabras_clave": [
+        "unesco",
+        "patrimonio",
+        "humanidad",
+        "2003",
+        "declarado"
+      ]
+    },
+    {
+      "dato": "La flor de cempasúchil, conocida como 'cempoalxóchitl' en náhuatl, significa 'flor de veinte pétalos' y se usa para guiar a las almas.",
+      "palabras_clave": [
+        "cempasúchil",
+        "náhuatl",
+        "flor",
+        "pétalos",
+        "almas"
+      ]
+    },
+    {
+      "dato": "La Catrina fue creada originalmente como 'La Calavera Garbancera' por José Guadalupe Posada y después bautizada por Diego Rivera.",
+      "palabras_clave": [
+        "catrina",
+        "posada",
+        "rivera",
+        "garbancera",
+        "calavera"
+      ]
+    },
+    {
+      "dato": "El pan de muerto tiene formas que representan huesos y lágrimas, y se coloca en la ofrenda como alimento para las almas.",
+      "palabras_clave": [
+        "pan",
+        "muerto",
+        "huesos",
+        "ofrenda",
+        "alimento"
+      ]
+    },
+    {
+      "dato": "El copal es una resina aromática que se quema durante el Día de Muertos para purificar el espacio y guiar a los espíritus.",
+      "palabras_clave": [
+        "copal",
+        "resina",
+        "purificar",
+        "espíritus",
+        "incienso"
+      ]
+    },
+    {
+      "dato": "Mictlantecuhtli y Mictecacíhuatl eran los señores del Mictlán, el inframundo mexica donde las almas viajaban durante cuatro años.",
+      "palabras_clave": [
+        "mictlantecuhtli",
+        "mictecacihuatl",
+        "mictlán",
+        "inframundo",
+        "mexica"
+      ]
+    },
+    {
+      "dato": "Durante el Virreinato de la Nueva España (1521-1821), los frailes franciscanos, dominicos y agustinos canalizaron el culto indígena a los muertos moviendo las fechas mexicas para coincidir con el calendario católico de 'Todos los Santos' (1 de noviembre) y 'Fieles Difuntos' (2 de noviembre).",
+      "palabras_clave": [
+        "nueva españa",
+        "colonia",
+        "virreinato",
+        "frailes",
+        "evangelizacion",
+        "catolico",
+        "todos los santos",
+        "fieles difuntos",
+        "sincretismo",
+        "calendario"
+      ]
+    },
+    {
+      "dato": "Las calaveras de azúcar surgieron en la Nueva España gracias a los monjes que enseñaron la técnica del alfeñique (pasta de azúcar de origen árabe). Los indígenas la adoptaron para sustituir los antiguos cráneos reales de los 'tzompantli' (altares prehispánicos de cráneos) por dulces coloridos.",
+      "palabras_clave": [
+        "azucar",
+        "alfeñique",
+        "monjes",
+        "dulce",
+        "craneos",
+        "tzompantli",
+        "españoles",
+        "colonia",
+        "nueva españa"
+      ]
+    },
+    {
+      "dato": "El sincretismo es la fusión de dos culturas: la indígena mesoamericana (culto al Mictlán, uso de copal, flores y comida) y la española católica (velas para iluminar el purgatorio, pan de trigo y oraciones). Este mestizaje cultural dio origen a la identidad de la que hoy se enorgullecen los mexicanos.",
+      "palabras_clave": [
+        "sincretismo",
+        "orgullo",
+        "identidad",
+        "mexicanos",
+        "mestizaje",
+        "fusion",
+        "culturas",
+        "española",
+        "catolica",
+        "indigena"
+      ]
+    },
+    {
+      "dato": "Antes de la llegada de los españoles, la muerte en Mesoamérica no se asociaba con el infierno católico o el castigo, sino con el destino de cómo se había muerto. El sincretismo colonial suavizó la visión trágica europea de la muerte, dándole el tono festivo y familiar característico de México.",
+      "palabras_clave": [
+        "antes de mexico",
+        "mesoamerica",
+        "españoles",
+        "infierno",
+        "purgatorio",
+        "castigo",
+        "trágica",
+        "festivo",
+        "vision"
+      ]
+    }
+  ]
+}
